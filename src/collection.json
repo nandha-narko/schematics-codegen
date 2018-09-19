@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "maalgorghn": {
+      "description": "A blank schematic.",
+      "factory": "./maalgorghn-codegen/index#maalgorghnCodegen"
+    }
+  }
+}

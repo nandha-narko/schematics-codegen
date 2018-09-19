@@ -1,0 +1,496 @@
+{
+    "propertyTypes" : [
+        { "value": "single", "text": "Single family residence" },
+        { "value": "condo", "text": "Condominium" },
+        { "value": "two", "text": "Two to four unit property" },
+        { "value": "coop", "text": "Co-operative" },
+        { "value": "mh", "text": "Manufatured Home" },
+        { "value": "pud", "text": "Planned Unit Development" }
+    ],
+    "propertyUses" : [
+        { "value": "primary", "text": "Primary House" },
+        { "value": "vacation", "text": "Vacation Home" },
+        { "value": "investment", "text": "An Investment" }
+    ],
+    "loanTypes": [
+        { "value": "30", "text": "30 Years Fixed" },
+        { "value": "25", "text": "25 Years Fixed" },
+        { "value": "20", "text": "20 Years Fixed" },
+        { "value": "15", "text": "15 Years Fixed" },
+        { "value": "10", "text": "10 Years Fixed" }
+    ],
+    "creditScores": [
+        { "value": "740-759", "text": "740-759" },
+        { "value": "600-740", "text": "600-740" },
+        { "value": "below600", "text": "Below 600" }
+    ],
+    "lockTypes": [
+        { "value": "30days", "text": "30 Days" },
+        { "value": "20days", "text": "20 Days" },
+        { "value": "15days", "text": "15 Days" }
+    ],
+    "rateQuotes": [
+        {
+            "recommendationCategory": "Lowest APR",
+            "title": "30 Years Fixed Conventional",
+            "loanType":"30",
+            "rate": "2.650",
+            "monthlyPayment": "950",
+            "apr": "3.050",
+            "closingCost": "1000",
+            "lenderFee": "500",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": "Lowest Price",
+            "title": "30 Years Fixed Conventional",
+            "rate": "2.650",
+            "loanType":"30",
+            "monthlyPayment": "950",
+            "apr": "3.050",
+            "closingCost": "1000",
+            "lenderFee": "500",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": "Lowest Monthly Payment",
+            "title": "30 Years Fixed Conventional",
+            "rate": "2.650",
+            "loanType":"30",
+            "monthlyPayment": "950",
+            "apr": "3.050",
+            "closingCost": "1000",
+            "lenderFee": "500",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": null,
+            "title": "30 Years Fixed Conventional",
+            "rate": "2.650",
+            "loanType":"30",
+            "monthlyPayment": "950",
+            "apr": "3.050",
+            "closingCost": "1000",
+            "lenderFee": "500",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": "Lowest APR",
+            "title": "20 Years Fixed Conventional",
+            "loanType":"20",
+            "rate": "2.950",
+            "monthlyPayment": "950",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": "Lowest Price",
+            "title": "20 Years Fixed Conventional",
+            "loanType":"20",
+            "rate": "2.950",
+            "monthlyPayment": "975",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": "Lowest Monthly Payment",
+            "title": "20 Years Fixed Conventional",
+            "loanType":"20",
+            "rate": "2.950",
+            "monthlyPayment": "925",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": null,
+            "title": "25 Years Fixed Conventional",
+            "loanType":"25",
+            "rate": "2.950",
+            "monthlyPayment": "900",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": null,
+            "title": "25 Years Fixed Conventional",
+            "loanType":"25",
+            "rate": "2.950",
+            "monthlyPayment": "300",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": null,
+            "title": "25 Years Fixed Conventional",
+            "loanType":"25",
+            "rate": "2.950",
+            "monthlyPayment": "200",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": null,
+            "title": "25 Years Fixed Conventional",
+            "loanType":"25",
+            "rate": "2.950",
+            "monthlyPayment": "100",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": null,
+            "title": "25 Years Fixed ",
+            "loanType":"25",
+            "rate": "2.950",
+            "monthlyPayment": "900",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },
+        {
+            "recommendationCategory": null,
+            "title": "25 Years Fixed ",
+            "loanType":"25",
+            "rate": "2.950",
+            "monthlyPayment": "1900",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        },  {
+            "recommendationCategory": null,
+            "title": "25 Years Fixed ",
+            "loanType":"25",
+            "rate": "2.950",
+            "monthlyPayment": "2000",
+            "apr": "3.150",
+            "closingCost": "1500",
+            "lenderFee": "1000",
+            "monthlyMortgagePayments": [
+                { "name": "Payment 1", "amount" : "$1234" },
+                { "name": "Payment 2", "amount" : "$1234" },
+                { "name": "Payment 3", "amount" : "$1234" },
+                { "name": "Payment 4", "amount" : "$1234" },
+                { "name": "Payment 5", "amount" : "$1234" }
+            ],
+            "closingCostEstimate": {
+                "lenderFees": [
+                    { "name": "Lender Fee 1", "amount" : "$1234" },
+                    { "name": "Lender Fee 2", "amount" : "$1234" },
+                    { "name": "Lender Fee 3", "amount" : "$1234" },
+                    { "name": "Lender Fee 4", "amount" : "$1234" },
+                    { "name": "Lender Fee 5", "amount" : "$1234" }
+                ],
+                "thirdPartyCharges": [
+                    { "name": "Third Party Charge 1", "amount" : "$1234" },
+                    { "name": "Third Party Charge 2", "amount" : "$1234" },
+                    { "name": "Third Party Charge 3", "amount" : "$1234" },
+                    { "name": "Third Party Charge 4", "amount" : "$1234" },
+                    { "name": "Third Party Charge 5", "amount" : "$1234" }
+                ]
+            }
+        }
+       
+    ]
+}
